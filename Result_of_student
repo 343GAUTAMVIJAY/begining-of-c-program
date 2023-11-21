@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int m1,m2,m3,m4,m5,tot;
+    printf("Enter the marks : ");
+    scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+    tot=m1+m2+m3+m4+m5;
+    printf("Total marks:%d\n",tot);
+    if(tot>=200 && tot<=500)
+    {
+        printf("PASS\n");
+    }
+  
+    else if(tot<200)
+    {
+        printf("FAIL \n");
+    }
+    else
+    {
+        printf("Enter valid marks");
+    }
+}
+
+**********************************************
+
+Output
+
+Enter the marks : 94 80 88 90 84
+Total marks:436
+PASS
+
